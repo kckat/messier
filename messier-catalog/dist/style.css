@@ -7,25 +7,27 @@
 body{
   align-content: center;
   text-align: center;
-  background: #ddd9;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif
     
 }
 
 catalog-wrap {
   overflow: hidden;
-  align-content: center;
+  align-content: left;
 }
 
 #title{
-  margin: 30px
+  margin: 30px;
+  color: white;
 }
 
 /*messier div styling*/
 .filterDiv {
-  float: center;
-  width: 100px;
-  line-height: 100px;
+  float: left;
+  width: 150px;
+  line-height: 150px;
   color: white;
   margin: 15px;
   text-align: center;
@@ -33,11 +35,11 @@ catalog-wrap {
   box-shadow: 0 0 5px rgba(0,0,0,.5);
   display: none;
   overflow: hidden;
-  max-height: 100px;
+  max-height: 150px;
 }
 
 .filterDiv img {
-   max-width: 150%;
+   max-width: 100%;
    max-height: 100%;
    filter: blur(1px);
   }
@@ -49,14 +51,13 @@ catalog-wrap {
   right: 0;
   top: 0%; 
   width: 50%; 
-  color: grey;
+  color:white;
 }
 
 #catalog-wrap {
-  content-align: center;
   margin-top: 20px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .show {
